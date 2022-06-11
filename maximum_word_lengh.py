@@ -1,15 +1,13 @@
-a=input()
-l=len(a)
+n = input()
 c=0
-m=0
-for i in range(0,l):
-    if a[i]==' ':
-        if m<c:
-            m=c
+max=0
+for i in range(0,len(n)):
+    if n[i]==' ':
+        if max<c:
+            max=c
         c=0
     else:
         c+=1
-if c>m:
-    print(c)
-else:
-    print(m)
+if c>max:
+    max=c
+print(max)
