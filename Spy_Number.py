@@ -1,4 +1,5 @@
 n=int(input())
+temp=n
 s=0
 p=1
 while n:
@@ -10,4 +11,3 @@ if s==p:
     print('Spy Number')
 else:
     print('Not Spy Number')
-    
