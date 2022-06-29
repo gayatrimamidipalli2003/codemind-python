@@ -14,4 +14,3 @@ else:
         n//=10
     print('-',end='')
     print(rev)
-    
