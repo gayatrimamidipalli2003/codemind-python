@@ -19,4 +19,3 @@ if n1==n2:
     print('Automorphic Number')
 else:
     print('Not an Automorphic Number')
-    
