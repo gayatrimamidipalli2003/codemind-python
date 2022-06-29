@@ -1,7 +1,7 @@
 n=int(input())
-for i in range(0,n):
-    if n==i*i:
-        print('True')
+for i in range(1,n+1):
+    if i*i==n:
+        print(True)
         break
 else:
-    print('False')
+    print(False)
