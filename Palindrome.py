@@ -9,4 +9,3 @@ if rev==temp:
     print(True)
 else:
     print(False)
-    
