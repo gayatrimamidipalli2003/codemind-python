@@ -1,8 +1,9 @@
 n=int(input())
-arr=list(map(int,input().split()))
-for i in arr:
+a=list(map(int,input().split()))
+for i in a:
     if i%2==0:
         print(i,end=' ')
-for i in arr:
+for i in a:
     if i%2!=0:
         print(i,end=' ')
+        
