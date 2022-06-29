@@ -1,9 +1,7 @@
 n=int(input())
-x=0
+max=0
 while n:
-    rem=n%10
-    if rem>x:
-        x=rem
+    if max<n%10:
+        max=n%10
     n//=10
-print(x)
-    
+print(max)
