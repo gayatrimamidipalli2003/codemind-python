@@ -1,4 +1,6 @@
 s=input()
 s=s.split()
-l=len(s)
-print(l)
+c=0
+for i in s:
+    c+=1
+print(c)
