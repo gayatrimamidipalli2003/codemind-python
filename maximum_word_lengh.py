@@ -1,13 +1,8 @@
-n = input()
-c=0
-max=0
-for i in range(0,len(n)):
-    if n[i]==' ':
-        if max<c:
-            max=c
-        c=0
-    else:
-        c+=1
-if c>max:
-    max=c
-print(max)
+s=input()
+s=s.split()
+r=[]
+for i in s:
+    l=len(i)
+    r.append(l)
+print(max(r))
+    
