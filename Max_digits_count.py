@@ -4,8 +4,8 @@ c=0
 r=[]
 for i in a:
     i=str(i)
-    k=len(i)
-    r.append(k)
+    le=len(i)
+    r.append(le)
 for i in r:
     if i==max(r):
         c+=1
