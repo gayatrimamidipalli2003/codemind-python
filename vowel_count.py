@@ -1,7 +1,7 @@
-s=input()
-v='aeiouAEIOU'
+n=input()
+n=n.lower()
 c=0
-for i in s:
-    if i in v:
+for i in n:
+    if i in 'aeiou':
         c+=1
 print(c)
