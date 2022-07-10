@@ -1,12 +1,10 @@
-s=input()
+n=input()
+n=n.lower()
 v=list('aeiou')
-s=s.split()
-for i in s:
-    for j in i:
-        if j in v:
-            v.remove(j)
+for i in n:
+    if i in v:
+        v.remove(i)
 if len(v)==0:
-    print(0)
+    print('0')
 else:
     print(*v)
-        
