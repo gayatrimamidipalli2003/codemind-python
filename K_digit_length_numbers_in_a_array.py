@@ -1,5 +1,10 @@
 n,k=map(int,input().split())
 a=list(map(int,input().split()))
+r=[]
+for i in a:
+    i=str(i)
+    le=len(i)
+    r.append(le)
 c=0
 for i in a:
     if i>=0:
