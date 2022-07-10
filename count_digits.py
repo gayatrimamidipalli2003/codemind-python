@@ -8,4 +8,5 @@ for i in a:
     else:
         i=str(i)
         le=len(i)
-        print((le-1),end=' ')
+        print(le-1,end=' ')
+    
