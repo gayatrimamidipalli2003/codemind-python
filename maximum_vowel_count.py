@@ -1,10 +1,9 @@
-s=input()
-s=s.lower()
-s=s.split()
+n=input()
+n=n.lower()
+n=n.split()
 v='aeiou'
 r=[]
-c1=0
-for i in s:
+for i in n:
     c=0
     for j in i:
         if j in v:
