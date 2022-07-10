@@ -1,6 +1,7 @@
 n=input()
 n=n.split()
-for i in range(len(n)):
-    a=ord(min(n[i]))
-    b=ord(max(n[i]))
-    print(abs(a-b),end=' ')
+for i in n:
+    mi=ord(min(i))
+    ma=ord(max(i))
+    print(abs(ma-mi),end=' ')
+    
