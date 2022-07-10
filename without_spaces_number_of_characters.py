@@ -1,7 +1,8 @@
-s=input()
-l=len(s)
+n=input()
 c=0
-for i in s:
+l=len(n)
+for i in n:
     if i==' ':
         c+=1
-print(l-c)
+res=l-c
+print(res)
