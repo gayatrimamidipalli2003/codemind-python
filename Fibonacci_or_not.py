@@ -6,7 +6,7 @@ while c<n:
     c=a+b
     a=b
     b=c
-if b==n:
+if c==n:
     print(True)
 else:
     print(False)
