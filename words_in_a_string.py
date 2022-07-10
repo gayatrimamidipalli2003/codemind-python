@@ -1,6 +1,6 @@
-s=input()
-s=s.split()
+n=input()
+a=n.split()
 c=0
-for i in s:
+for i in a:
     c+=1
 print(c)
