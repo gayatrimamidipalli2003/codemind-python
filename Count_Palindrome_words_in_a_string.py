@@ -1,6 +1,6 @@
-def pali(s):
-    b=s[::-1]
-    if s==b:
+def pali(n):
+    b=n[::-1]
+    if n==b:
         return 1
     else:
         return 0
