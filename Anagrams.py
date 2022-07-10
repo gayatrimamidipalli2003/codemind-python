@@ -1,13 +1,13 @@
-s1=input()
-s2=input()
-s1=s1.lower()
-s2=s2.lower()
+a=input()
+b=input()
+a=a.lower()
+b=b.lower()
 c=0
-for i in s1:
-    for j in s2:
+for i in a:
+    for j in b:
         if i==j:
             c+=1
-if c==len(s1) or c==len(s2):
+if c==len(a):
     print(True)
 else:
     print(False)
