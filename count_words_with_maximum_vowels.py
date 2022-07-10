@@ -1,16 +1,17 @@
-s=input()
-s=s.lower()
-s=s.split()
+n=input()
+n=n.lower()
+n=n.split()
 v='aeiou'
 r=[]
-c1=0
-for i in s:
+for i in n:
     c=0
     for j in i:
         if j in v:
             c+=1
     r.append(c)
+d=0
 for i in r:
     if i==max(r):
-        c1+=1
-print(c1)
+        d+=1
+print(d)
+    
