@@ -10,6 +10,3 @@ for i in a:
     le=len(i)
     if le==c:
         print(i,end=' ')
-    
-    
-    
