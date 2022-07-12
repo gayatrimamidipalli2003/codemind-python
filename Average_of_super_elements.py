@@ -1,8 +1,7 @@
 n=int(input())
 a=list(map(int,input().split()))
 sett=set(a)
-c=0
-sum=0
+sum=c=0
 for i in sett:
     if i==a.count(i):
         sum+=i
