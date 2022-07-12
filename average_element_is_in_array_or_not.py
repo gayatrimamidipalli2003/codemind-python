@@ -1,12 +1,10 @@
 n=int(input())
 a=list(map(int,input().split()))
-sum=0
-for i in range(0,n):
-    sum+=a[i]
-res=sum//n
+sum=c=0
 for i in a:
-    if i==res:
-        print(True)
-        break
+    sum+=i
+res=sum//n
+if res in a:
+    print(True)
 else:
     print(False)
