@@ -1,9 +1,8 @@
 n=int(input())
-arr=list(map(int,input().split()))
-a,b=map(int,input().split())
+a=list(map(int,input().split()))
+x,y=map(int,input().split())
 sum=0
-for i in range(0,n):
-    if arr[i]<a or arr[i]>b:
-        sum+=arr[i]
+for i in a:
+    if i<x or i>y:
+        sum+=i
 print(sum)
-
