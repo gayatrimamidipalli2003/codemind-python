@@ -1,8 +1,8 @@
 n=int(input())
 a=list(map(int,input().split()))
-x=int(input())
+k=int(input())
 sum=0
-for i in range(0,n):
-    if a[i]<=x:
+for i in range(n):
+    if a[i]<=k:
         sum+=a[i]
 print(sum)
