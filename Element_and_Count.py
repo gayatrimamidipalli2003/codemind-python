@@ -6,3 +6,4 @@ for i in range(n):
         s.append(a[i])
 for i in s:
     print(i,a.count(i),end=' ')
+        
