@@ -4,7 +4,7 @@ sum=0
 c=0
 for i in a:
     sum+=i
-avg=(sum//n)
+avg=sum//n
 for i in a:
     if i<=avg:
         c+=1
