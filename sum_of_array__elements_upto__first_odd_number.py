@@ -1,9 +1,9 @@
 n=int(input())
 a=list(map(int,input().split()))
 sum=0
-for i in a:
-    if i%2==0:
-        sum+=i
-    if i%2!=0:
+for i in range(n):
+    if a[i]%2==0:
+        sum+=a[i]
+    else:
         break
 print(sum)
