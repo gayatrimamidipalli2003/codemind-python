@@ -1,38 +1,25 @@
-def prime_left(x):
-    while x:
-        fact=0
-        c=2
-        count=0
-        while c<=x//2:
-            if x%c==0:
-                count+=1
-            c+=1
-        if count==0:
-            return x
-            break
-        x-=1
-def prime_right(x):
-    while x:
-        fact=0
-        c=2
-        count=0
-        while c<=x//2:
-            if x%c==0:
-                count+=1
-            c+=1
-        if count==0:
-            return x
-            break
-        x+=1
-n=int(input())
-while n:
-    num=int(input())
-    left=num
-    right=num
-    l=prime_left(left)
-    r=prime_right(right)
-    if r-num<num-l:
-        print(r)
+def prime(n):
+    if n==1:
+        return 0
+    for i in range(2,int(n**0.5)+1):
+        if n%i==0:
+            return 0
     else:
-        print(l)
-    n-=1
+        return 1
+n=int(input())
+for j in range(n):
+    a=int(input())
+    temp=a
+    for i in range(a,2,-1):
+        if prime(i):
+            p=i
+            break
+    while temp!=0:
+        if prime(temp):
+            q=temp
+            break
+        temp+=1
+    if (a-p)<=(q-a):
+        print(p)
+    else:
+        print(q)
