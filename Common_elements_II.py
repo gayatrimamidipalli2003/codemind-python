@@ -1,12 +1,11 @@
-x,y=map(int,input().split())
-a=list(map(int,input().split()))
-b=list(map(int,input().split()))
+a,b=map(int,input().split())
+arr=list(map(int,input().split()))
+brr=list(map(int,input().split()))
 r=[]
-for i in a:
-    if i not in b:
+for i in arr:
+    if i not in brr:
         r.append(i)
-for i in b:
-    if i not in a:
+for i in brr:
+    if i not in arr:
         r.append(i)
 print(*r)
-        
