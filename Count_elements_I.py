@@ -1,11 +1,10 @@
-x,y=map(int,input().split())
-a=list(map(int,input().split()))
-b=list(map(int,input().split()))
-c=[]
-count=0
-for i in a:
-    if i in b:
-        if i not in c:
-            c.append(i)
-            count+=1
-print(count)
+a,b=map(int,input().split())
+arr=list(map(int,input().split()))
+brr=list(map(int,input().split()))
+arr=set(arr)
+brr=set(brr)
+c=0
+for i in arr:
+    if i in brr:
+        c+=1
+print(c)
