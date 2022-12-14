@@ -1,9 +1,9 @@
 a,b=map(int,input().split())
-x=list(map(int,input().split()))
-y=list(map(int,input().split()))
-z=[]
-for i in x:
-    if i in y:
-        if i not in z:
-            z.append(i)
-print(*z)
+arr=list(map(int,input().split()))
+brr=list(map(int,input().split()))
+k=[]
+for i in arr:
+    for j in brr:
+        if i not in k and i==j:
+            k.append(i)
+print(*k)
